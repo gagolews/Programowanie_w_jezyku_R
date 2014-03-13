@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<!--
+
+     TEST: polskie ogonki w UTF-8 - ąśćżółźęńĄŚĆŻÓŁŹĘŃ
+
+     1. Otwórz niniejszy dokument w RStudio (uwaga na ogonki!
+        Jeśli nie działają - File->Reopen with encoding...
+     2. Zmień jego typ na "R HTML" (prawy dolny róg okna edycji)
+     3. Wybierz File->knit HTML (lub wciśnij CTRL+SHIFT+H), by zobaczyć
+        wynik.
+-->
+
+<!--
+%% Copyright (c) 2013-2014, Marek Gagolewski (http://rksiazka.rexamine.com)
+%% All rights reserved.
+%%
+%% Redistribution and use in source and binary forms, with or without
+%% modification, are permitted provided that the following conditions are met:
+%%
+%% 1. Redistributions of source code must retain the above copyright notice,
+%%    this list of conditions and the following disclaimer.
+%% 2. Redistributions in binary form must reproduce the above copyright
+%%    notice, this list of conditions and the following disclaimer in
+%%    the documentation and/or other materials provided with the distribution.
+%%
+%% THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+%% AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+%% THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+%% PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+%% CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+%% EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+%% PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+%% OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+%% WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+%% OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+%% ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<html>
+
+<!-- Nagłówek dokumentu HTML -->
+<head>
+   <title>Przykładowy raport</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <!-- albo inne kodowanie (charset), np. ISO-8859-2, WINDOWS-1250 itp.
+        jeśli Twoja przeglądarka obsługuje już HTML5, możesz napisać po prostu:
+        <meta charset="UTF-8" /> -->
+   <meta name="keywords" content="przykład, R, knitr, HTML" />
+   <meta name="description"
+      content="Przykładowy raport w HTML wygenerowany za pomocą R-a i knitr" />
+   <meta name="author" content="Roman Zacny" />
+</head>
+
+
+<!-- Część właściwa (ciało) dokumentu HTML -->
+<body>
+
+<h1>knitr działa!</h1>
+
+<div style='background: lightgray'>
+Jeśli pobrałeś/aś ten plik ze strony
+<a href='http://R.mini.pw.edu.pl'>R.mini.pw.edu.pl</a>
+i otwierasz go w przeglądarce internetowej, koniecznie wyświetl
+jego kod źródłowy lub zapisz go na dysku i otwórz w RStudio!
+</div>
+
+<h2>Demonstracja</h2>
+
+<p><code>knitr</code> doskonale radzi
+sobie z następującym kodem <code>R</code>-a.</p>
+
+<!-- Poniżej niby komentarz - ale knitr traktuje go
+     w specjalny sposób - jako kod R-a! -->
+
+<!--begin.rcode
+x <- "Dzień dobry, tu R!"
+cat(x, "\n")
+end.rcode-->
+
+<p>Mało tego, potrafi też wstawić w określone miejsce
+strony rysunek:</p>
+
+<!--begin.rcode
+x <- rnorm(100)
+y <- x+rnorm(100, 0, 0.5)
+plot(x, y)
+end.rcode-->
+
+<p>I tak dalej, i tak dalej...</p>
+
+<h2>Coś innego</h2>
+
+
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Cras at urna augue. Cras fringilla convallis hendrerit.
+Pellentesque nec dui quis ipsum semper egestas nec eget turpis.
+
+Integer molestie condimentum mollis. Fusce vestibulum laoreet magna
+a aliquam. Sed cursus diam sit amet tellus malesuada aliquet.
+Cum sociis natoque penatibus et magnis dis parturient montes,
+nascetur ridiculus mus. In hac habitasse platea dictumst.
+Vestibulum egestas elit non purus accumsan luctus fermentum
+tortor scelerisque. Quisque semper congue nisl eu sollicitudin.
+Suspendisse mattis, velit eget volutpat placerat, libero diam
+        molestie ligula, at vulputate risus mauris sit amet quam.
+      Aenean dignissim enim at dui condimentum dapibus. Etiam ac
+   risus lacus. Nullam nec velit felis. Proin dictum, tellus non
+mollis convallis, elit orci blandit purus,       sit amet suscipit
+quam nibh id neque. Pellentesque aliquam, dolor nec eleifend
+bibendum, sem nunc imperdiet enim, sed molestie tellus nibh a risus.
+</p>
+
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Cras at urna augue. <em>Cras fringilla convallis hendrerit.
+Pellentesque nec dui quis</em> ipsum semper egestas nec eget turpis.
+Integer molestie condimentum mollis. Fusce vestibulum laoreet magna
+a aliquam. Sed cursus diam sit amet tellus malesuada aliquet.
+Cum sociis natoque penatibus et magnis dis parturient montes,
+nascetur ridiculus mus. In <strong>hac habitasse platea dictumst.
+Vestibulum egestas elit non purus accumsan luctus fermentum</strong>
+tortor scelerisque. <mark>Quisque semper congue nisl eu sollicitudin.
+Suspendisse mattis, velit eget volutpat placerat, libero diam
+        molestie ligula, at vulputate risus mauris sit amet quam.
+      Aenean dignissim enim at dui condimentum dapibus. Etiam ac</mark>
+   risus lacus. Nullam nec velit felis. Proin dictum, tellus non
+mollis convallis, elit orci blandit purus,       sit amet suscipit
+quam nibh id neque. Pellentesque aliquam, dolor nec eleifend
+bibendum, sem nunc imperdiet enim, sed molestie tellus nibh a risus.
+</p>
+
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+AddType text/plain .R
+AddType text/plain .Rhtml
+AddType text/plain .Rnw

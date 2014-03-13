@@ -1,0 +1,147 @@
+\documentclass[12pt]{article}
+
+%% Copyright (c) 2013-2014, Marek Gagolewski (http://rksiazka.rexamine.com)
+%% All rights reserved.
+%%
+%% Redistribution and use in source and binary forms, with or without
+%% modification, are permitted provided that the following conditions are met:
+%%
+%% 1. Redistributions of source code must retain the above copyright notice,
+%%    this list of conditions and the following disclaimer.
+%% 2. Redistributions in binary form must reproduce the above copyright
+%%    notice, this list of conditions and the following disclaimer in
+%%    the documentation and/or other materials provided with the distribution.
+%%
+%% THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+%% AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+%% THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+%% PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+%% CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+%% EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+%% PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+%% OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+%% WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+%% OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+%% ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% TEST: polskie ogonki w UTF-8 - ąśćżółźęńĄŚĆŻÓŁŹĘŃ
+
+% 1. Otwórz niniejszy dokument w RStudio.
+% 2. Zmień jego typ na "R Sweave" (prawy dolny róg okna edycji)
+% 3. Wybierz File->Compile PDF (lub wciśnij CTRL+SHIFT+I), by zobaczyć wynik.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[MeX,OT4,plmath]{polski}
+\usepackage[utf8]{inputenc} % kodowanie cp1250 lub latin2 też jest dostępne
+\usepackage[OT4]{fontenc}
+\usepackage[polish]{babel}
+\selectlanguage{polish}
+\let\lll\undefined % pakiet "polish" czasem kłóci się z "amssymb"
+\usepackage{amssymb,amsmath,amsfonts}
+\usepackage{graphicx}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\title{knitr działa!}
+\author{Grzegorz Brzęczyszczykiewicz}
+\date{\today}
+
+\maketitle
+
+\begin{abstract}
+Ten przykład pokazuje, że wszystko działa, jak należy.
+Ten przykład pokazuje, że wszystko działa, jak należy.
+Ten przykład pokazuje, że wszystko działa, jak należy.
+
+Ten przykład pokazuje, że wszystko działa, jak należy.
+Ten przykład pokazuje, że wszystko działa, jak należy.
+Ten przykład pokazuje, że wszystko działa, jak należy.
+
+Ten przykład pokazuje, że wszystko działa, jak zależy.
+\end{abstract}
+
+\section{Demonstracja}
+
+\texttt{knitr} doskonale radzi
+sobie z~następującym kodem \texttt{R}-a.
+
+<<>>=
+x <- "Ale heca!"
+cat(x, "\n")
+@
+
+
+Mało tego, potrafi też wstawić w~określone miejsce
+strony rysunek:
+
+<<>>=
+x <- rnorm(100)
+y <- x+rnorm(100, 0, 0.5)
+plot(x, y)
+@
+
+\noindent
+Rysunek jest słabej jakości (grafika rastrowa),
+ale innym razem postaramy się to naprawić!
+
+
+
+
+Na marginesie, czyż \LaTeX~nie jest
+\[
+   ||\mathbf{x}||_p = \left(\sum_{i=1}^n x_i^p\right)^{1/p}
+\]
+wspaniały?
+
+\bigskip
+I tak dalej, i tak dalej\dots
+
+
+\section{Coś innego}
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Cras at urna augue. Cras fringilla convallis hendrerit.
+Pellentesque nec dui quis ipsum semper egestas nec eget turpis.
+Integer molestie condimentum mollis. Fusce vestibulum laoreet magna
+a aliquam. Sed cursus diam sit amet tellus malesuada aliquet.
+Cum sociis natoque penatibus et magnis dis parturient montes,
+nascetur ridiculus mus. In hac habitasse platea dictumst.
+Vestibulum egestas elit non purus accumsan luctus fermentum
+tortor scelerisque. Quisque semper congue nisl eu sollicitudin.
+Suspendisse mattis, velit eget volutpat placerat, libero diam
+        molestie ligula, at vulputate risus mauris sit amet quam.
+      Aenean dignissim enim at dui condimentum dapibus. Etiam ac
+   risus lacus. Nullam nec velit felis. Proin dictum, tellus non
+mollis convallis, elit orci blandit purus,       sit amet suscipit
+quam nibh id neque. Pellentesque aliquam, dolor nec eleifend
+bibendum, sem nunc imperdiet enim, sed molestie tellus nibh a risus.
+
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Cras at urna augue. \textit{Cras fringilla convallis hendrerit.
+Pellentesque nec dui quis} ipsum semper egestas nec eget turpis.
+Integer molestie condimentum mollis. \texttt{Fusce vestibulum laoreet
+magna a aliquam.} Sed cursus diam sit amet tellus malesuada aliquet.
+Cum sociis natoque penatibus et magnis dis parturient montes,
+nascetur ridiculus mus. In \textbf{hac habitasse platea dictumst.
+Vestibulum egestas elit non purus accumsan luctus fermentum}
+tortor scelerisque. \textsf{Quisque semper congue nisl eu sollicitudin.
+Suspendisse mattis, velit eget volutpat placerat, libero diam
+        molestie ligula, at vulputate risus mauris sit amet quam.
+      Aenean dignissim enim at dui condimentum dapibus. Etiam ac}
+   risus lacus. Nullam nec velit felis. Proin dictum, tellus non
+mollis convallis, elit orci blandit purus,       sit amet suscipit
+quam nibh id neque. Pellentesque aliquam, dolor nec eleifend
+bibendum, sem nunc imperdiet enim, sed molestie tellus nibh a risus.
+
+
+\end{document}
