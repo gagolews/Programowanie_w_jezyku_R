@@ -16,5 +16,9 @@
    JEST: ~~*Utwórzmy zmienną o identyfikatorze x przechowującą wektor*~~;
    POWINNO BYĆ: *Utwórzmy obiekt związany z nazwą x przechowujący wektor*.
 
+- **s. 27**:
+   JEST: ~~*w konsoli*~~;
+   POWINNO BYĆ: *na konsoli*.
+
 - **s. 29**:
    Uwaga do ciekawostki: Tak samo lepiej nie używać nazwy `c` (dlaczego?).
