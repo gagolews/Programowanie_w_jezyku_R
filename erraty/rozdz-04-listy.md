@@ -4,4 +4,4 @@
 
 -   **s. 62**:
 
-    Wartą uwagi zanotowania funkcją jest ponadto `is.list()`.
+    Wartą zanotowania funkcją jest ponadto `is.list()`.
