@@ -5,6 +5,7 @@
 -   **s. 37, w. -9**:
 
     JEST: ~~`x v y`~~;
+
     POWINNO BYĆ: **x** `v` **y** (pogrubienie)
 
 -   **s. 47, w. -2**:
