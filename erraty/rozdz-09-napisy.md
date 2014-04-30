@@ -34,3 +34,30 @@ Gdyby nie to, rozdz. 9 wyglądałby teraz zupełnie inaczej...
     JEST: ~~*wzorce nigdy nie nakładają się na siebie*~~;
 
     POWINNO BYĆ: *wykrywane są tylko rozłączne dopasowania wzorca*.
+
+-   **s. 188, w. 5**:
+
+    JEST: ~~*które są dopasowane do podnapisów*~~;
+
+    POWINNO BYĆ: *które są dopasowywane do podnapisów*.
+
+-   **s. 189, w. 18**:
+
+    JEST: ~~`str_extract_all(enc2utf8('ĄąĆćĘęBb'), perl('[ą-ć]'))`~~;
+
+    POWINNO BYĆ: `str_extract_all(enc2utf8('ĄąĆćĘęBb'), perl(enc2utf8('[ą-ć]')))`.
+
+-   **s. 192, w. -4**:
+
+    JEST: ~~*Drugie wywołanie usuwa...*~~;
+
+    POWINNO BYĆ: *Trzecie wywołanie usuwa...*.
+
+-   **s. 198n, rozdz. 9.4**:
+
+    `CEST` oznacza *Central European Summer Time* (czas letni
+    środkowoeuropejski)
+
+    Mamy `CET == UTC+01:00` oraz `CEST == UTC+02:00`.
+
+    Rozdział ten pisałem późną zimą, wiosna przyszła niezauważona...
