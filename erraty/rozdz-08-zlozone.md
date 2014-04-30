@@ -5,7 +5,7 @@
 
 -   **s. 136, rozdz. 8.1**:
 
-    *Macierze (...) są reprezentowane w R przez wektory **atomowe** [podkr. wł.]
+    *Macierze (...) są reprezentowane w R przez wektory __atomowe__ [podkr. wł.]
     z ustawionym atrybutem specjalnym `dim`*.
     Drobna uwaga: okazuje się, że nie tylko wektory atomowe
     mogą służyć za tzw. ,,bazę'' dla macierzy, ale też listy.
