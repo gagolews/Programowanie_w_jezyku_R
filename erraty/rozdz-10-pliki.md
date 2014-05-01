@@ -12,3 +12,7 @@
     W RStudio 0.98 wskazana opcja dostępna jest w menu Session
     -> Set Working Directory.
 
+-   **s. 216, tab. 10.1**:
+
+    Argumenty `quote` w tab. 10.1 powinny wyglądać następująco:
+    `'\'"'`, `'"'`, `'"'`, `'"'`, `'"'`.
