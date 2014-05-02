@@ -16,3 +16,7 @@
 
     Argumenty `quote` w tab. 10.1 powinny wyglądać następująco:
     `'\'"'`, `'"'`, `'"'`, `'"'`, `'"'`.
+
+-   **s, 224, ramka Informacja**:
+
+    *... lub `stri_wrap` z pakietu `stringi` ...* (dotyczy wersji >= 0.2 pakietu)
