@@ -14,3 +14,20 @@
     JEST: ~~*są wspólne dla wszystkich systemów graficznych*~~;
 
     POWINNO BYĆ: *są uznawane przez funkcje z pakietu `graphics`*
+
+-   **s.257, w. 1**:
+
+    JEST: ~~*Każdy rysunek w R jest wykonywany przy użyciu...*~~;
+
+    POWINNO BYĆ: *Każdy rysunek w R jest kreślony przy użyciu...*
+
+-   **s. 258, przypis 14**:
+
+    Nie jest tak zawsze (pliki mogą być skompresowane).
+    Ta sama zasada dotyczy plików PDF.
+
+-   **s.262, ramka Zadanie**:
+
+    Po długiej "przerwie" pakiet `tikzDevice` wrócił na CRAN,
+    możemy go więc zainstalować za pomocą "zwykłego" wywołania
+    `install.packages()`.
