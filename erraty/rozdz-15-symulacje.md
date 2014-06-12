@@ -44,7 +44,7 @@
     POWINNO BYĆ: *runif(1)*.
 
 
-- __s. 374__ (przedział ufności (dokładny) dla proporcji (wzór)):
+- __s. 374, przedział ufności (dokładny) dla proporcji (wzór)__:
 
     JEST: ~~$1+\beta/2$~~;
 
