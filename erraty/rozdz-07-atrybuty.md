@@ -15,3 +15,4 @@
     > now throws a warning and may become defunct in the future.
     > If partial matching is intended, replace `foo$bar` by
     > `foo[["bar", exact = FALSE]]`.
+

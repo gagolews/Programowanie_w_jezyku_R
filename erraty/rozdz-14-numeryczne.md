@@ -10,5 +10,3 @@
     POWINNO BYĆ: *dokonamy przeglądu metod używanych do numerycznego rozwiązywania*
     albo *dokonamy przeglądu metod numerycznego rozwiązywania*
 
-
-

@@ -11,3 +11,4 @@ w chmurze z pewnością będą zainteresowane
 -   **s.302**:
 
     Od niedawna `knitr` domyślnie używa `tidy=FALSE`.
+

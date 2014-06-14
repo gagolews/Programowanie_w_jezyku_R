@@ -20,3 +20,4 @@
 -   **s, 224, ramka Informacja**:
 
     *... lub `stri_wrap` z pakietu `stringi` ...* (dotyczy wersji >= 0.2 pakietu)
+

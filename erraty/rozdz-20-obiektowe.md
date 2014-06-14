@@ -6,3 +6,4 @@
 
     Możemy też czasem definiować nowe operatory binarne bez użycia `%nazwa%`,
     np. `:=`.
+

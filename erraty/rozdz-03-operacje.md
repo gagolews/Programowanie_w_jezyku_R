@@ -30,3 +30,4 @@
     JEST: ~~*numery przedziału*~~;
 
     POWINNO BYĆ: *numery przedziałów*
+

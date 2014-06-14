@@ -29,3 +29,5 @@
 -   **s. 29**:
 
     Uwaga do ciekawostki: Tak samo lepiej nie używać nazwy `c` (dlaczego?).
+
+    

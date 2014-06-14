@@ -35,3 +35,4 @@ Kilka linków do stron pomocnych w nauce i doskonaleniu programowania w R
 * http://journal.r-project.org/
 * http://www.rseek.org/
 * http://www.rdocumentation.org/
+

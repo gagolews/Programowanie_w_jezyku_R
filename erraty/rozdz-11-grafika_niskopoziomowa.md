@@ -31,3 +31,4 @@
     Po długiej "przerwie" pakiet `tikzDevice` wrócił na CRAN,
     możemy go więc zainstalować za pomocą "zwykłego" wywołania
     `install.packages()`.
+

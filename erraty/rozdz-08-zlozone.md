@@ -22,3 +22,4 @@
 -   **s. 144, w. 21**:
 
     Niepotrzebny nawias `)` po `2`
+

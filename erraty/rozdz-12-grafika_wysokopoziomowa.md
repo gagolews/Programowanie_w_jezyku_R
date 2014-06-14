@@ -7,3 +7,4 @@
     JEST: ~~*opcji systemowej `scipen`*~~;
 
     POWINNO BYĆ: *opcji globalnej `scipen`*
+

@@ -23,3 +23,4 @@
     JEST: ~~*na konsoli w środowisku R*~~;
 
     POWINNO BYĆ: *na konsoli*
+

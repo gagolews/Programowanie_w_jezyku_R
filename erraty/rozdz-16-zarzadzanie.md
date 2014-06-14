@@ -12,3 +12,4 @@
 - __s. 400, tab. 16.2__:
 
     Podane rozmiary dotyczą 64-bitowej wersji R.
+

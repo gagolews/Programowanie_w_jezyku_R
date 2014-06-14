@@ -5,3 +5,4 @@
 -   **s. 62**:
 
     Wartą zanotowania funkcją jest ponadto `is.list()`.
+

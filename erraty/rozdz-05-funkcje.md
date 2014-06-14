@@ -13,3 +13,4 @@
     JEST: ~~*Argument specjalny `...`*~~;
 
     POWINNO BYĆ: *Parametr specjalny `...`*
+

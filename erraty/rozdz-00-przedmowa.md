@@ -11,3 +11,4 @@
 
 -   Na etapie korekty wkradło się do Przedmowy kilka niezbyt konsekwentnych
     ,,per Ty''. Proszę o wybaczenie.
+
