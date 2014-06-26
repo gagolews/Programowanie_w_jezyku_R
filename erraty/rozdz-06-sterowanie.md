@@ -2,6 +2,14 @@
 ## Modyfikacja przepływu sterowania ##
 
 
+-   **s. 98, w. -4**:
+
+    JEST: ~~*gdzie `warunek` jest wektorem logicznym (...)*~~;
+
+    POWINNO BYĆ: *gdzie `warunek` jest taki, że `as.logical(warunek)`
+    daje dokładnie jedną wartość `TRUE` albo `FALSE`*
+
+
 -   **s. 100, w. -5**:
 
     JEST: ~~*wektorem jednoelementowym*~~;
