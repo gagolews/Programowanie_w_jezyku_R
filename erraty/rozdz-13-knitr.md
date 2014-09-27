@@ -8,6 +8,12 @@ w chmurze z pewnością będą zainteresowane
 [tą informacją](http://www.rexamine.com/2014/01/sharelatex-now-supports-knitr/).
 
 
+-   **s.294, w. 5**: [PP]
+
+    JEST: ~~*w polecenia*~~;
+
+    POWINNO BYĆ: *z polecenia*
+
 -   **s.302**:
 
     Od niedawna `knitr` domyślnie używa `tidy=FALSE`.

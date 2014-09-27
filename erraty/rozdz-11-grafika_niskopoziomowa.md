@@ -15,6 +15,12 @@
 
     POWINNO BYĆ: *są uznawane przez funkcje z pakietu `graphics`*
 
+-   **s. 243, w. 1**: [PP]
+
+    JEST: ~~*rozdz. 7 s. 120*~~;
+
+    POWINNO BYĆ: *rozdz. 7 s. 131*
+
 -   **s.257, w. 1**:
 
     JEST: ~~*Każdy rysunek w R jest wykonywany przy użyciu...*~~;
@@ -26,7 +32,7 @@
     Nie jest tak zawsze (pliki mogą być skompresowane).
     Ta sama zasada dotyczy plików PDF.
 
--   **s.262, ramka Zadanie**:
+-   **s. 262, ramka Zadanie**:
 
     Po długiej "przerwie" pakiet `tikzDevice` wrócił na CRAN,
     możemy go więc zainstalować za pomocą "zwykłego" wywołania

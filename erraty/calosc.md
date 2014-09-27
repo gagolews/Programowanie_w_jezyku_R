@@ -369,6 +369,12 @@ Gdyby nie to, rozdz. 9 wyglądałby teraz zupełnie inaczej...
 
     POWINNO BYĆ: *są uznawane przez funkcje z pakietu `graphics`*
 
+-   **s. 243, w. 1**: [PP]
+
+    JEST: ~~*rozdz. 7 s. 120*~~;
+
+    POWINNO BYĆ: *rozdz. 7 s. 131*
+
 -   **s.257, w. 1**:
 
     JEST: ~~*Każdy rysunek w R jest wykonywany przy użyciu...*~~;
@@ -380,7 +386,7 @@ Gdyby nie to, rozdz. 9 wyglądałby teraz zupełnie inaczej...
     Nie jest tak zawsze (pliki mogą być skompresowane).
     Ta sama zasada dotyczy plików PDF.
 
--   **s.262, ramka Zadanie**:
+-   **s. 262, ramka Zadanie**:
 
     Po długiej "przerwie" pakiet `tikzDevice` wrócił na CRAN,
     możemy go więc zainstalować za pomocą "zwykłego" wywołania
@@ -396,6 +402,13 @@ Gdyby nie to, rozdz. 9 wyglądałby teraz zupełnie inaczej...
 
     POWINNO BYĆ: *opcji globalnej `scipen`*
 
+-   **s. 272, ramka Informacja**: [PP]
+
+    JEST: ~~*Za pomocą argumentu `add=TRUE` zapobiegniemy takiemu zachowaniu.*~~
+    ~~*Ogólniej (działa nie tylko w przypadku `plot()`), wywołując ...*~~;
+
+    POWINNO BYĆ: *Wywołując ...*
+
 # Erraty i uwagi do rozdziału 13           #
 ## Generowanie raportów przy użyciu knitr ##
 
@@ -406,6 +419,12 @@ w chmurze z pewnością będą zainteresowane
 [tą informacją](http://www.rexamine.com/2014/01/sharelatex-now-supports-knitr/).
 
 
+-   **s.294, w. 5**: [PP]
+
+    JEST: ~~*w polecenia*~~;
+
+    POWINNO BYĆ: *z polecenia*
+
 -   **s.302**:
 
     Od niedawna `knitr` domyślnie używa `tidy=FALSE`.
@@ -415,12 +434,18 @@ w chmurze z pewnością będą zainteresowane
 
 
 
--   **s.307, w. 1**:
+-   **s. 307, w. 1**:
 
     JEST: ~~*dokonamy przeglądu metod numerycznego używanych do rozwiązywania*~~;
 
     POWINNO BYĆ: *dokonamy przeglądu metod używanych do numerycznego rozwiązywania*
     albo *dokonamy przeglądu metod numerycznego rozwiązywania*
+
+-   **s. 325, w. -6**: [PP]
+
+    JEST: ~~*Richarsona*~~;
+
+    POWINNO BYĆ: *Richardsona*
 
 # Erraty i uwagi do rozdziału 15          #
 ## Symulacje i wnioskowanie statystyczne ##
