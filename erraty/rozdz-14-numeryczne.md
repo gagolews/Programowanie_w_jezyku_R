@@ -10,6 +10,12 @@
     POWINNO BYĆ: *dokonamy przeglądu metod używanych do numerycznego rozwiązywania*
     albo *dokonamy przeglądu metod numerycznego rozwiązywania*
 
+-   **s. 316, w. 8**:
+
+    JEST: ~~*`tolarance=1e-8`*~~;
+
+    POWINNO BYĆ: *`tolerance=1e-8`*
+
 -   **s. 325, w. -6**: [PP]
 
     JEST: ~~*Richarsona*~~;
