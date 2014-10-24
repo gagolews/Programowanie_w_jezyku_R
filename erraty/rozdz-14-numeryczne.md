@@ -28,3 +28,9 @@
 
     POWINNO BYĆ: *Richardsona*
 
+-   **s. 333, w. -12**:
+
+    JEST: ~~*`B FGS`*~~;
+
+    POWINNO BYĆ: *`BFGS`*
+

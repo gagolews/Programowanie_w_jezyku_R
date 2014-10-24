@@ -459,6 +459,12 @@ w chmurze z pewnością będą zainteresowane
 
     POWINNO BYĆ: *Richardsona*
 
+-   **s. 333, w. -12**:
+
+    JEST: ~~*`B FGS`*~~;
+
+    POWINNO BYĆ: *`BFGS`*
+
 # Erraty i uwagi do rozdziału 15          #
 ## Symulacje i wnioskowanie statystyczne ##
 
