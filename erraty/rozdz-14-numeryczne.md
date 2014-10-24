@@ -16,6 +16,12 @@
 
     POWINNO BYĆ: *`tolerance=1e-8`*
 
+-   **s. 321, w. 2**:
+
+    JEST: ~~*sp(X) <= n*~~;
+
+    POWINNO BYĆ: *|sp(X)| <= n*
+
 -   **s. 325, w. -6**: [PP]
 
     JEST: ~~*Richarsona*~~;
