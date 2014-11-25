@@ -1,5 +1,5 @@
-# Erraty i uwagi do rozdziału 13           #
-## Generowanie raportów przy użyciu knitr ##
+# Erraty i uwagi do rozdziału 13                   #
+## Generowanie raportów przy użyciu pakietu knitr ##
 
 
 **Uwaga ogólna**: Osoby, które nie posiadają zainstalowanej
@@ -13,6 +13,12 @@ w chmurze z pewnością będą zainteresowane
     JEST: ~~*w polecenia*~~;
 
     POWINNO BYĆ: *z polecenia*
+
+-   **s.297, ramka Zadanie**: [AO]
+
+    JEST: ~~`html-przyklad1.html`~~;
+
+    POWINNO BYĆ: `html-przyklad1.Rhtml`
 
 -   **s.302**:
 
