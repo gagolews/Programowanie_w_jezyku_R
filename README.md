@@ -8,6 +8,8 @@ M. Gągolewski, *Programowanie w języku R.
 Analiza danych, obliczenia, symulacje*,
 Wydawnictwo Naukowe PWN, 2014.
 
+**Uwaga: Wydanie drugie poprawione i rozszerzone w przygotowaniu.**
+
 Treści zawarte w niniejszym repozytorium
 udostępnione są zgodnie z zasadami otwartej licencji BSD-2-clause
 i stanową materiał uzupełniający do książki.
@@ -47,4 +49,4 @@ i stanową materiał uzupełniający do książki.
 > jest bardzo odmienny od najczęściej stosowanych w praktyce języków
 > C/C++/C#/Java).
 
-Zobacz więcej [na stronie WWW książki](http://rksiazka.rexamine.com).
+Więcej informacji [na stronie WWW książki](http://www.gagolewski.com/publications/programowanier/).
