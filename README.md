@@ -3,10 +3,10 @@
 ### Marek Gągolewski ###
 
 
-Ćwiczenia, kody źródłowe i erraty do książki
-M. Gągolewski, *Programowanie w języku R.
-Analiza danych, obliczenia, symulacje*,
-Wydawnictwo Naukowe PWN, 2014.
+Materiały uzupełniające do książki
+M. Gągolewski, *Programowanie w języku R. Analiza danych, obliczenia, symulacje*,
+Wydawnictwo Naukowe PWN, 2014 (wydanie pierwsze) i ?2016? (wydanie drugie
+poprawione i uzupełnione).
 
 Treści zawarte w niniejszym repozytorium
 udostępnione są zgodnie z zasadami otwartej licencji BSD-2-clause
@@ -39,12 +39,10 @@ i stanową materiał uzupełniający do książki.
 > konkretnych działów matematyki, informatyki i statystyki, na których styku można
 > uplasować analizę danych.
 
-> Książka skierowana jest zarówno do osób, które już wykorzystują R-a w swojej
-> pracy, jak i tych, które chcą dopiero poznać to środowisko. Będą nią
-> zainteresowane osoby, które nigdy nie programowały w żadnym języku, znają R-a
+> Książka skierowana jest zarówno do osób, które już wykorzystują środowisko R
+> w swojej pracy, jak i tych, które chcą dopiero poznać to środowisko. Będą nią
+> zainteresowane osoby, które nigdy nie programowały w żadnym języku, znają R
 > wybiórczo (książka stanowi kompletny kurs programowania prowadzący do poziomu
-> zaawansowanego), jak i takie, dla których R jest kolejnym narzędziem (język R
-> jest bardzo odmienny od najczęściej stosowanych w praktyce języków
-> C/C++/C#/Java).
+> zaawansowanego), jak i takie, dla których R jest kolejnym narzędziem.
 
-Zobacz więcej [na stronie WWW książki](http://rksiazka.rexamine.com).
+Zobacz więcej [na stronie WWW książki](http://gagolewski.rexamine.com/publications/programowanier/).
