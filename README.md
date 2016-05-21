@@ -12,7 +12,7 @@ poprawione i uzupełnione).
 
 Treści zawarte w niniejszym repozytorium
 udostępnione są zgodnie z zasadami otwartej licencji BSD-2-clause
-i stanową materiał uzupełniający do książki.
+i stanowią materiał uzupełniający do książki.
 
 
 > Otwarte, wolnodostępne i bezpłatne środowisko R zyskuje w ostatnich latach
