@@ -5,10 +5,8 @@
 
 Materiały uzupełniające do książki
 M. Gągolewski, *Programowanie w języku R. Analiza danych, obliczenia, symulacje*,
-Wydawnictwo Naukowe PWN, 2014 (wydanie pierwsze) i ?2016? (wydanie drugie
-poprawione i uzupełnione).
-
-**Uwaga: Wydanie drugie poprawione i rozszerzone w przygotowaniu.**
+Wydawnictwo Naukowe PWN, 2014 (wydanie pierwsze) i 2016 (wydanie drugie
+poszerzone).
 
 Treści zawarte w niniejszym repozytorium
 udostępnione są zgodnie z zasadami otwartej licencji BSD-2-clause
