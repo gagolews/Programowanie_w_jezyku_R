@@ -1,48 +1,51 @@
-# Programowanie w języku R #
-## Materiały uzupełniające do książki ##
-### Marek Gągolewski ###
+#   Programowanie w języku R (2016)      #
+##  Materiały uzupełniające do książki  ##
+### Marek Gągolewski                   ###
 
 
 Materiały uzupełniające do książki
-M. Gągolewski, *Programowanie w języku R. Analiza danych, obliczenia, symulacje*,
-Wydawnictwo Naukowe PWN, 2014 (wydanie pierwsze) i 2016 (wydanie drugie
-poszerzone).
+M. Gągolewski,
+*Programowanie w języku R. Analiza danych, obliczenia, symulacje*,
+Wydawnictwo Naukowe PWN,
+2014 (wydanie pierwsze) i
+2016 (wydanie drugie poszerzone).
 
 Treści zawarte w niniejszym repozytorium
 udostępnione są zgodnie z zasadami otwartej licencji BSD-2-clause
 i stanowią materiał uzupełniający do książki.
 
+> Otwarte i wolnodostępne środowisko R zyskało w ostatnich latach ogromną
+> popularność. Język R jest jednym z podstawowych narzędzi w warsztacie wielu
+> analityków danych, statystyków, *data scientists*, badaczy opinii i rynku,
+> specjalistów *business intelligence* czy naukowców.
 
-> Otwarte, wolnodostępne i bezpłatne środowisko R zyskuje w ostatnich latach
-> coraz większą popularność i staje się bardzo poważną alternatywą dla
-> wykorzystywanych przez wiele instytucji komercyjnych narzędzi typu SAS, STATA
-> czy SPSS.
+> Większość publikacji dostępnych na polskim i zagranicznym rynku wydawniczym
+> skupia się na omawianiu sposobów wykorzystania środowiska R w różnych
+> zastosowaniach praktycznych, m.in. w ekonomii, medycynie, bioinformatyce,
+> psychologii, socjologii oraz naukach technicznych. Objaśnia zatem sposób
+> korzystania z szablonowych rozwiązań na zasadzie „kucharskich przepisów”.
+> Ta oto książka stawia sobie jednak za cel wsparcie Czytelnika w jego drodze
+> ku programistycznej samodzielności – aby mógł wyjść poza gotowe schematy
+> i śmiało mierzyć się z nowymi wyzwaniami, przed jakimi stawia nas
+> tzw. era informacji.
 
-> W książce kładziemy szczególny nacisk na wyjaśnienie najbardziej podstawowych
-> mechanizmów języka R. Chcemy pokazać jego użyteczność w pracy analityka
-> danych-praktyka oraz w zastosowaniach naukowych: w jaki sposób przeprowadzać w
-> nim obliczenia matematyczne i symulacyjne, jak implementować algorytmy,
-> przygotowywać zbiory danych do analizy, automatyzować bardzo żmudne – gdyby je
-> wykonywać ręcznie – zadania, tworzyć raporty, tabele, wykresy itp.
+> Książka skupia się na dogłębnym wyjaśnieniu zasad funkcjonowania środowiska R.
+> Nie można jej jednak nazwać po prostu kursem programowania, a to dlatego, że R
+> jest ściśle związany z bogatymi obszarami swoich zastosowań. Czytelnik dowie
+> się więc, w jaki sposób przeprowadzać w R obliczenia symulacyjne i numeryczne,
+> jak implementować algorytmy przetwarzania danych, pobierać, tworzyć
+> i przygotowywać zbiory danych do analizy, automatyzować bardzo
+> żmudne – gdyby je wykonywać ręcznie – zadania czy też tworzyć raporty,
+> tabele i wykresy.
 
-> Znakomita większość publikacji dostępnych nie tylko na polskim, ale i
-> zagranicznym rynku wydawniczym skupia się na omawianiu sposobów wykorzystywania
-> R w różnych zastosowaniach praktycznych (statystyka, analiza danych, obliczenia
-> naukowe, numeryczne, symulacyjne – m.in. w ekonomii, medycynie, naukach
-> technicznych i ekonomicznych) – czyli uczy tak naprawdę obcowania z gotowymi
-> narzędziami.
-
-> Książka jest doskonałym źródłem informacji dla osób, które chcą dokładnie
-> dowiedzieć się, w jaki sposób takie obliczenia są przeprowadzane, w jaki sposób
-> mieć na nie pełny wpływ oraz – w razie potrzeby – jak oprogramować je
-> samodzielnie. Dodatkową zaletą pozycji są liczne przykłady i ćwiczenia z
-> konkretnych działów matematyki, informatyki i statystyki, na których styku można
-> uplasować analizę danych.
-
-> Książka skierowana jest zarówno do osób, które już wykorzystują środowisko R
-> w swojej pracy, jak i tych, które chcą dopiero poznać to środowisko. Będą nią
-> zainteresowane osoby, które nigdy nie programowały w żadnym języku, znają R
-> wybiórczo (książka stanowi kompletny kurs programowania prowadzący do poziomu
-> zaawansowanego), jak i takie, dla których R jest kolejnym narzędziem.
+> Dr inż. Marek Gągolewski jest adiunktem w Instytucie Badań Systemowych
+> Polskiej Akademii Nauk oraz na Wydziale Matematyki i Nauk Informacyjnych
+> Politechniki Warszawskiej. Jest autorem ponad 50 publikacji naukowych,
+> m.in. na temat agregacji i analizy danych oraz laureatem stypendiów
+> dla wybitnych młodych uczonych. Pracuje w R od kilkunastu lat, a jego pakiet
+> [`stringi`](http://www.gagolewski.com/software/stringi/) należy aktualnie
+> do pierwszej dziesiątki najczęściej pobieranych rozszerzeń dla tego języka.
 
 Więcej informacji [na stronie WWW książki](http://www.gagolewski.com/publications/programowanier/).
+
+Zobacz też: [Przetwarzanie i analiza danych w języku Python](http://gagolewski.com/publications/programowaniepy).
