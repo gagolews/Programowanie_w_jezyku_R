@@ -3,7 +3,7 @@
 ![Okładka](programowanie_w_jezyku_r_wyd2.jpg "Okładka")
 
 Autor:
-[Marek Gągolewski](https://www.gagolewski.com),
+[Marek Gągolewski](https://www.gagolewski.com)
 
 
 
@@ -23,7 +23,7 @@ ISBN:
 
 Zobacz też: 
 
-* [Przetwarzanie i analiza danych w języku Python](https://github.com/gagolews/Analiza_danych_w_jezyku_Python).
+* [Przetwarzanie i analiza danych w języku Python](https://github.com/gagolews/Analiza_danych_w_jezyku_Python)
 * [Minimalist Data Wrangling with Python](https://datawranglingpy.gagolewski.com/)
 
 
