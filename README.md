@@ -1,5 +1,13 @@
 # Programowanie w języku R (2016) — Wydanie 2
 
+> **Zobacz też**:  ⚠⚠⚠ 
+> 
+> * [*Deep R Programming*](https://deepr.gagolewski.com/)
+> * [*Minimalist Data Wrangling with Python*](https://datawranglingpy.gagolewski.com/)
+> * [*Przetwarzanie i analiza danych w języku Python*](https://github.com/gagolews/Analiza_danych_w_jezyku_Python)
+
+--------------------------------------------------
+
 ![Okładka](programowanie_w_jezyku_r_wyd2.jpg "Okładka")
 
 Autor:
@@ -21,11 +29,6 @@ ISBN:
 
 [Link do księgarni PWN](http://ksiegarnia.pwn.pl/Programowanie-w-jezyku-R,647767533,p.html)
 
-Zobacz też: 
-
-* [Deep R Programming](https://deepr.gagolewski.com/)
-* [Minimalist Data Wrangling with Python](https://datawranglingpy.gagolewski.com/)
-* [Przetwarzanie i analiza danych w języku Python](https://github.com/gagolews/Analiza_danych_w_jezyku_Python)
 
 
 
