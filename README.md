@@ -23,8 +23,10 @@ ISBN:
 
 Zobacz też: 
 
-* [Przetwarzanie i analiza danych w języku Python](https://github.com/gagolews/Analiza_danych_w_jezyku_Python)
+* [Deep R Programming](https://deepr.gagolewski.com/)
 * [Minimalist Data Wrangling with Python](https://datawranglingpy.gagolewski.com/)
+* [Przetwarzanie i analiza danych w języku Python](https://github.com/gagolews/Analiza_danych_w_jezyku_Python)
+
 
 
 # Materiały uzupełniające
